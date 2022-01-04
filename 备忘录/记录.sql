@@ -400,5 +400,6 @@ order by $temp1.jskhbm,$temp1.hpcs
 
 error:1271 Illegal mix of collations for operation 'UNION'
 解决：查看union相关的表的 字符类型和长度是否匹配，调成一致就可以了
+查看表的具体信息
  -- DESCRIBE $temp3;
  -- DESCRIBE $temp4;
